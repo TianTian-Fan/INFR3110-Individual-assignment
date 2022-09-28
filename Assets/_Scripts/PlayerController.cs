@@ -88,6 +88,16 @@ public class PlayerController : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             Debug.Log("You lose!");
         }
+        else if (collision.collider.tag == "GemPink")
+        {
+            ScoreManager.instance.ChangeScore(50);
+            Destroy(gameObject);
+        }
+        else if (collision.collider.tag == "GemGreen")
+        {
+            ScoreManager.instance.ChangeScore(100);
+            Destroy(gameObject);
+        }
     }
 
     private void Jump()

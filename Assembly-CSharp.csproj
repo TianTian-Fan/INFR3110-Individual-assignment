@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{DFA40A0A-0C95-A156-9230-26EF4B603C18}</ProjectGuid>
+    <ProjectGuid>{DA197B63-77BE-96CF-D6E2-6B55E2C31254}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,6 +62,8 @@
     <Compile Include="Assets\_Scripts\ScoreManager.cs" />
     <Compile Include="Assets\_Scripts\EditorManager.cs" />
     <Compile Include="Assets\_Scripts\Enemy.cs" />
+    <Compile Include="Assets\_Scripts\GemGreen.cs" />
+    <Compile Include="Assets\_Scripts\GemPink.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
